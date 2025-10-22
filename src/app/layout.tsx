@@ -37,7 +37,6 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen`}
         suppressHydrationWarning={true}
       >
-        <ThemeScript />
         <Navigation />
         <main className="flex-1">
           {children}
