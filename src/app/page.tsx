@@ -22,7 +22,7 @@ export default function Home() {
               </span>
             </h1>
             <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-8">
-              A passionate software engineer from Karachi, Pakistan
+              A Passionate Software Engineer from Karachi, Pakistan
             </p>
             <p className="text-lg text-gray-500 dark:text-gray-400 mb-12 max-w-2xl mx-auto">
               Specializing in full-stack development with expertise in modern web technologies,

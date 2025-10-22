@@ -1,36 +1,38 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { useState, useEffect } from "react";
 import { Menu, X, Moon, Sun } from "lucide-react";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [isDark, setIsDark] = useState(true);
+  const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
-  const toggleTheme = () => {
-    setIsDark((prev) => {
-      const newIsDark = !prev;
-      if (typeof window !== "undefined") {
-        if (newIsDark) {
-          document.documentElement.classList.add("dark");
-        } else {
-          document.documentElement.classList.remove("dark");
-        }
-      }
-      return newIsDark;
-    });
-  };
+    if (isDark) {
+      document.documentElement.classList.add("dark");
+      localStorage.setItem("theme", "dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+      localStorage.setItem("theme", "light");
+    }
+  }, [isDark]);
+
+  useEffect(() => {
+    // Initialize theme on mount - only run once
     const storedTheme = localStorage.getItem("theme");
-    if (storedTheme === "dark" || (!storedTheme && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
-      setIsDark(true);
+    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const shouldBeDark = storedTheme === "dark" || (!storedTheme && prefersDark);
+
+    // Apply theme to DOM
+    if (shouldBeDark) {
       document.documentElement.classList.add("dark");
     } else {
-      setIsDark(false);
       document.documentElement.classList.remove("dark");
     }
+
+    // Update state after DOM manipulation
+    setTimeout(() => setIsDark(shouldBeDark), 0);
   }, []);
 
   useEffect(() => {
@@ -44,7 +46,9 @@ const Navigation = () => {
   }, [isDark]);
 
   const toggleMenu = () => setIsOpen(!isOpen);
-  const toggleTheme = () => setIsDark((prev) => !prev);
+  const toggleTheme = () => {
+    setIsDark((prev) => !prev);
+  };
 
   const navItems = [
     { href: "/", label: "Home" },
@@ -61,13 +65,9 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
         <Link href="/" className="flex items-center space-x-3">
-          <Image
-            src="/profile.jpg"
-            alt="Abdul Baqi Qureshi"
-            width={32}
-            height={32}
-            className="w-8 h-8 rounded-full object-cover"
-          />
+          <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-sm">
+            ABQ
+          </div>
           <span className="text-xl font-bold text-gray-900 dark:text-white">
             Abdul Baqi
           </span>
@@ -87,6 +87,7 @@ const Navigation = () => {
             <button
               onClick={toggleTheme}
               className="p-2 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+              aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"}
             >
               {isDark ? <Sun size={20} /> : <Moon size={20} />}
             </button>
@@ -97,6 +98,7 @@ const Navigation = () => {
             <button
               onClick={toggleTheme}
               className="p-2 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+              aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"}
             >
               {isDark ? <Sun size={20} /> : <Moon size={20} />}
             </button>
