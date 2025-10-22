@@ -73,7 +73,7 @@ export default function Home() {
               <Linkedin size={32} />
             </a>
             <a
-              href="mailto:abdulbaqi@example.com"
+              href="mailto:abdulbaqiq88@gmail.com"
               className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
             >
               <Mail size={32} />
