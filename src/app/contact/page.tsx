@@ -3,8 +3,11 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { Mail, MapPin, Phone, Send } from "lucide-react";
+import personalData from "@/data/personalData.json";
 
 export default function Contact() {
+  const { phone, social } = personalData;
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -94,7 +97,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="text-lg font-medium text-gray-900 dark:text-white">Email</h3>
-                  <p className="text-gray-600 dark:text-gray-300">abdulbaqi@example.com</p>
+                  <p className="text-gray-600 dark:text-gray-300">{social.email}</p>
                 </div>
               </div>
 
@@ -103,8 +106,8 @@ export default function Contact() {
                   <MapPin className="w-6 h-6 text-green-600 dark:text-green-400" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-medium text-gray-900 dark:text-white">Location</h3>
-                  <p className="text-gray-600 dark:text-gray-300">Karachi, Pakistan</p>
+                  <h3 className="text-lg font-medium text-gray-900 dark:text-white">Phone</h3>
+                  <p className="text-gray-600 dark:text-gray-300">{phone}</p>
                 </div>
               </div>
 

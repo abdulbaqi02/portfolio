@@ -1,29 +1,47 @@
 [
   {
     "id": 1,
-    "title": "Personal Portfolio Website",
-    "description": "A responsive portfolio website built with Next.js, showcasing projects and skills.",
-    "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
-    "github": "https://github.com/abdulbaqi02/portfolio",
-    "demo": "https://abdulbaqi.vercel.app",
+    "title": "Decentralized Voting System",
+    "description": "Blockchain voting app with secure smart contracts using Solidity, React.js, Node.js, Truffle, and SQL for transparent and tamper-proof elections.",
+    "technologies": ["Solidity", "React.js", "Node.js", "Truffle", "SQL"],
+    "github": "https://github.com/abdulbaqi02/decentralized-voting",
+    "demo": "https://decentralized-voting.vercel.app",
     "image": "/project1.jpg"
   },
   {
     "id": 2,
-    "title": "Full-Stack E-commerce App",
-    "description": "A complete e-commerce application with user authentication, payment integration, and admin dashboard.",
-    "technologies": ["React", "Node.js", "Express", "MongoDB", "Stripe"],
-    "github": "https://github.com/abdulbaqi02/ecommerce",
-    "demo": "https://ecommerce-demo.vercel.app",
+    "title": "AI Medical Diagnostic Assistant",
+    "description": "Symptom analysis via ML using Python, TensorFlow, and Streamlit for intelligent medical diagnosis assistance.",
+    "technologies": ["Python", "TensorFlow", "scikit-learn", "Streamlit", "ML"],
+    "github": "https://github.com/abdulbaqi02/ai-medical-assistant",
+    "demo": "https://ai-medical-assistant.streamlit.app",
     "image": "/project2.jpg"
   },
   {
     "id": 3,
-    "title": "Machine Learning Image Classifier",
-    "description": "An image classification model using TensorFlow.js for real-time predictions in the browser.",
-    "technologies": ["JavaScript", "TensorFlow.js", "HTML5", "CSS3"],
-    "github": "https://github.com/abdulbaqi02/ml-classifier",
-    "demo": "https://ml-classifier.vercel.app",
+    "title": "Smart Home Monitoring System",
+    "description": "IoT dashboard using Firebase and sensor data for real-time home monitoring with React.js frontend.",
+    "technologies": ["IoT", "Firebase", "React.js", "Node.js", "Real-time Data"],
+    "github": "https://github.com/abdulbaqi02/smart-home-monitoring",
+    "demo": "https://smart-home-monitoring.vercel.app",
     "image": "/project3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "AI Study Companion",
+    "description": "Adaptive learning tool using React.js, Node.js, Firebase, and OpenAI API for personalized education assistance.",
+    "technologies": ["React.js", "Node.js", "Firebase", "OpenAI API", "AI"],
+    "github": "https://github.com/abdulbaqi02/ai-study-companion",
+    "demo": "https://ai-study-companion.vercel.app",
+    "image": "/project4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Event Ticketing DApp",
+    "description": "NFT-based secure ticketing system using Solidity, Hardhat, IPFS, and ethers.js for blockchain-powered event management.",
+    "technologies": ["Solidity", "Hardhat", "IPFS", "ethers.js", "NFT"],
+    "github": "https://github.com/abdulbaqi02/event-ticketing-dapp",
+    "demo": "https://event-ticketing-dapp.vercel.app",
+    "image": "/project5.jpg"
   }
 ]

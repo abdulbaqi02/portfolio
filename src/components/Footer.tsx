@@ -23,7 +23,7 @@ const Footer = () => {
               <Github size={24} />
             </Link>
             <Link
-              href="https://linkedin.com/in/abdulbaqi"
+              href="https://linkedin.com/in/abdul-baqi-qureshi-56a481377"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
@@ -31,7 +31,7 @@ const Footer = () => {
               <Linkedin size={24} />
             </Link>
             <Link
-              href="mailto:abdulbaqi@example.com"
+              href="mailto:abdulbaqiq88@gmail.com"
               className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
             >
               <Mail size={24} />

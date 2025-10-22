@@ -1,51 +1,86 @@
 {
-  "name": "Abdul Baqi Qureshi",
+  "name": "ABDUL BAQI QURESHI",
   "title": "Software Engineer",
   "location": "Karachi, Pakistan",
-  "bio": "A passionate software engineer with expertise in full-stack development, machine learning, and blockchain basics. I love solving complex problems and building innovative solutions.",
+  "phone": "03057086588",
+  "bio": "Fresh Software Engineering graduate from Quaid-e-Awam University of Engineering Sciences and Technology, Nawabshah, with practical experience in full-stack web development, blockchain, and AI/ML. Skilled in Python, React.js, Node.js, Express.js, Firebase, Django, Ethereum blockchain, Solidity smart contracts, and Python ML libraries such as TensorFlow and scikit-learn. Experienced in Agile methodology, version control with Git, and continuous integration/deployment practices. Passionate about leveraging technology to build innovative, efficient software solutions.",
   "skills": {
-    "frontend": ["HTML5", "CSS3", "JavaScript (ES6+)", "React.js"],
-    "backend": ["Node.js", "Express.js", "Django (Python)"],
-    "databases": ["MySQL", "MongoDB", "Firebase"],
-    "other": ["Blockchain (Ethereum, Smart Contracts)", "Git", "Problem-solving", "Teamwork", "Learning Mindset"]
+    "programming": ["Python", "C++", "JavaScript (ES6+)", "Solidity"],
+    "webDevelopment": ["HTML5", "CSS3", "React.js", "Node.js", "Express.js", "Django", "REST APIs"],
+    "databases": ["MySQL", "MongoDB", "Firebase", "SQL"],
+    "blockchain": ["Ethereum", "Smart Contracts", "Truffle", "Hardhat", "NFT", "DApps"],
+    "machineLearning": ["TensorFlow", "PyTorch", "scikit-learn", "Model Training", "Data Preprocessing"],
+    "tools": ["Git", "Docker", "Agile", "CI/CD", "TDD"],
+    "softSkills": ["Problem Solving", "Team Collaboration", "Communication", "Adaptability"]
   },
   "experience": [
     {
-      "title": "Software Engineering Intern",
-      "company": "Tech Company XYZ",
-      "duration": "June 2023 - August 2023",
-      "description": "Developed full-stack web applications and contributed to open-source projects."
+      "title": "Intern",
+      "company": "National Institute of Electronics (NIE), Islamabad",
+      "duration": "Jul 2024",
+      "description": "Developed IoT Smart Home Monitoring dashboard using Firebase and sensor data. Employed Agile and Git workflows."
     },
     {
       "title": "Freelance Developer",
-      "company": "Self-employed",
-      "duration": "2022 - Present",
-      "description": "Built custom web applications for clients using React and Node.js."
+      "company": "Fiverr",
+      "duration": "2024",
+      "description": "Delivered AI-Powered Medical Diagnostic Assistant with Python ML and Streamlit; managed client communication and deployment."
+    },
+    {
+      "title": "Academic & Personal Projects",
+      "company": "Self-directed",
+      "duration": "2022–2025",
+      "description": "Built blockchain DApps, AI tools, and full-stack apps utilizing React.js, Node.js, Solidity, OpenAI API with continuous integration."
     }
   ],
   "education": [
     {
-      "degree": "Bachelor of Science in Computer Science",
-      "institution": "University of Karachi",
-      "year": "2020 - 2024",
-      "description": "Focused on software engineering, algorithms, and data structures."
+      "degree": "Bachelor of Engineering (B.E) in Software Engineering",
+      "institution": "Quaid-e-Awam University of Engineering Sciences and Technology, Nawabshah",
+      "year": "Dec 2021– Jul 2025",
+      "description": "Final Year Project: Decentralized Voting System using Ethereum Blockchain. CGPA: 3.39 / 4.00"
     }
   ],
   "certifications": [
     {
-      "name": "AWS Certified Cloud Practitioner",
-      "issuer": "Amazon Web Services",
-      "year": "2023"
+      "name": "Meta Back-End Developer Certificate",
+      "issuer": "Meta (Coursera)",
+      "year": "2024"
     },
     {
-      "name": "Google IT Support Professional",
-      "issuer": "Google",
-      "year": "2022"
+      "name": "The Full Stack",
+      "issuer": "Meta (Coursera)",
+      "year": "2024"
+    },
+    {
+      "name": "Programming in Python",
+      "issuer": "Meta (Coursera)",
+      "year": "2024"
+    },
+    {
+      "name": "Machine Learning with Python",
+      "issuer": "IBM (Coursera)",
+      "year": "2024"
+    },
+    {
+      "name": "Decentralized Finance (DeFi) Infrastructure",
+      "issuer": "Duke University (Coursera)",
+      "year": "2024"
+    },
+    {
+      "name": "Decentralized Finance (DeFi) Primitives",
+      "issuer": "Duke University (Coursera)",
+      "year": "2024"
+    },
+    {
+      "name": "Foundations of Cybersecurity",
+      "issuer": "Google (Coursera)",
+      "year": "2024"
     }
   ],
   "social": {
     "github": "https://github.com/abdulbaqi02",
-    "linkedin": "https://linkedin.com/in/abdulbaqi",
-    "email": "abdulbaqi@example.com"
+    "linkedin": "https://linkedin.com/in/abdul-baqi-qureshi-56a481377",
+    "email": "abdulbaqiq88@gmail.com"
   }
 }
