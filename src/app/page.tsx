@@ -65,7 +65,7 @@ export default function Home() {
               <Github size={32} />
             </a>
             <a
-              href="https://linkedin.com/in/abdulbaqi"
+              href="https://www.linkedin.com/in/abdul-baqi-qureshi-56a481377/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
