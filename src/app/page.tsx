@@ -57,7 +57,7 @@ export default function Home() {
             className="flex justify-center space-x-6 mb-16"
           >
             <a
-              href="https://github.com/abdulbaqi"
+              href="https://github.com/abdulbaqi02"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
