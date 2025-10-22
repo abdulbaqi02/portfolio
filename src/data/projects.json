@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Personal Portfolio Website",
+    "description": "A responsive portfolio website built with Next.js, showcasing projects and skills.",
+    "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    "github": "https://github.com/abdulbaqi02/portfolio",
+    "demo": "https://abdulbaqi.vercel.app",
+    "image": "/project1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Full-Stack E-commerce App",
+    "description": "A complete e-commerce application with user authentication, payment integration, and admin dashboard.",
+    "technologies": ["React", "Node.js", "Express", "MongoDB", "Stripe"],
+    "github": "https://github.com/abdulbaqi02/ecommerce",
+    "demo": "https://ecommerce-demo.vercel.app",
+    "image": "/project2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Machine Learning Image Classifier",
+    "description": "An image classification model using TensorFlow.js for real-time predictions in the browser.",
+    "technologies": ["JavaScript", "TensorFlow.js", "HTML5", "CSS3"],
+    "github": "https://github.com/abdulbaqi02/ml-classifier",
+    "demo": "https://ml-classifier.vercel.app",
+    "image": "/project3.jpg"
+  }
+]

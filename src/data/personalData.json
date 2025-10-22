@@ -1,0 +1,51 @@
+{
+  "name": "Abdul Baqi Qureshi",
+  "title": "Software Engineer",
+  "location": "Karachi, Pakistan",
+  "bio": "A passionate software engineer with expertise in full-stack development, machine learning, and blockchain basics. I love solving complex problems and building innovative solutions.",
+  "skills": {
+    "frontend": ["HTML5", "CSS3", "JavaScript (ES6+)", "React.js"],
+    "backend": ["Node.js", "Express.js", "Django (Python)"],
+    "databases": ["MySQL", "MongoDB", "Firebase"],
+    "other": ["Blockchain (Ethereum, Smart Contracts)", "Git", "Problem-solving", "Teamwork", "Learning Mindset"]
+  },
+  "experience": [
+    {
+      "title": "Software Engineering Intern",
+      "company": "Tech Company XYZ",
+      "duration": "June 2023 - August 2023",
+      "description": "Developed full-stack web applications and contributed to open-source projects."
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Self-employed",
+      "duration": "2022 - Present",
+      "description": "Built custom web applications for clients using React and Node.js."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "University of Karachi",
+      "year": "2020 - 2024",
+      "description": "Focused on software engineering, algorithms, and data structures."
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "issuer": "Amazon Web Services",
+      "year": "2023"
+    },
+    {
+      "name": "Google IT Support Professional",
+      "issuer": "Google",
+      "year": "2022"
+    }
+  ],
+  "social": {
+    "github": "https://github.com/abdulbaqi02",
+    "linkedin": "https://linkedin.com/in/abdulbaqi",
+    "email": "abdulbaqi@example.com"
+  }
+}
